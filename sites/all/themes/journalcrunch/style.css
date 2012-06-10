@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body,html { font-family:Segoe UI, Helvetica, Arial, Helvetica, sans-serif; font-weight:normal; font-size:13px; color:#333;
-background:url(images/bk_body.jpg); line-height:135%; margin:0; padding:0; }
+background:url(images/bk_body_3.jpg); line-height:135%; margin:0; padding:0; }
 
 input, text, textarea { font-family:Segoe UI, Arial, Helvetica, sans-serif; }
 
@@ -36,7 +36,7 @@ line-height:18px; margin:15px 0 15px 20px; padding-left:20px; }
 
  /* LAYOUT STRUCTURE
 --------------------------------------------------*/
-#mainWrapper { background:url(images/bk_main_wrapper.png) 0 0 repeat-x; }
+#mainWrapper { background:url(images/bk_main_wrapper_3.png) 0 0 repeat-x; }
 
 #wrapper { margin:0 auto; width:960px; }
 
@@ -64,7 +64,7 @@ line-height:18px; margin:15px 0 15px 20px; padding-left:20px; }
 
 #topMenu ul.main-menu li a { float:left; display:block; height:32px; color:#3FAEA5; padding:18px 15px 0; text-transform:uppercase; font-size:12px; }
 
-#topMenu ul.main-menu li a:hover, #topMenu ul.main-menu li a.selected, #topMenu ul.main-menu li a.active { text-decoration:none; background:url(images/bk_topmenu_hover.jpg) 0 0 repeat-x; color:#FFF; text-shadow:1px 1px #666; }
+#topMenu ul.main-menu li a:hover, #topMenu ul.main-menu li a.selected, #topMenu ul.main-menu li a.active { text-decoration:none; background:url(images/bk_topmenu_hover_2.jpg) 0 0 repeat-x; color:#FFF; text-shadow:1px 1px #666; }
 
 #site-name { font-size:160%; padding:5px 0 0 0; }
 
