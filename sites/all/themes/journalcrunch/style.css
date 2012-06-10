@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body,html { font-family:Segoe UI, Helvetica, Arial, Helvetica, sans-serif; font-weight:normal; font-size:13px; color:#333;
-background:url(images/bk_body_3.jpg); line-height:135%; margin:0; padding:0; }
+background:url(images/bk_body_4.jpg); line-height:135%; margin:0; padding:0; }
 
 input, text, textarea { font-family:Segoe UI, Arial, Helvetica, sans-serif; }
 
@@ -352,3 +352,21 @@ margin: 0; outline: 0 none; padding: 0 15px 0 0; text-indent: -9999px; width: 10
 a.mtt:link, a.mtt:active, a.mtt:visited, a.mtt:hover  {
 background: url("images/footer-logo-mtt.png") no-repeat scroll center top transparent; display: block; float: left; height: 45px; 
 margin: 0; outline: 0 none; padding: 0; text-indent: -9999px; width: 95px; }
+
+
+
+
+/******* GALLERY CUSTOM CHANGES **********************/
+.gallery-slides {
+	width: 441px;
+	height: 581px;
+	float: left;
+}
+.gallery-slides img, .gallery-thumbs img {
+	border: 1px solid #AAAAAA;
+}
+
+.gallery-thumbs {
+	width: 121px;
+	float: right;
+}
