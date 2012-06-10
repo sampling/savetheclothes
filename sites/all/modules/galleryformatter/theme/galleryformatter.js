@@ -30,7 +30,7 @@ Drupal.galleryformatter.prepare = function(el) {
      * Only start the thumbs carrousel if needed
      */
     if (($thumbsLi.size() * liWidth) > $thumbs.width()) {
-      $('ul', $thumbs).width('99999px');
+      $('ul', $thumbs).width('141px');
       $thumbs.infiniteCarousel();
       $thumbsLi = $('li', $thumbs); // we need to reselect because infiniteCarousel inserts new empty li elements if necessary
       // we need to reselect because infiniteCarousel inserts new empty li elements if necessary

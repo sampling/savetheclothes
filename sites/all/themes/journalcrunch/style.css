@@ -367,6 +367,17 @@ margin: 0; outline: 0 none; padding: 0; text-indent: -9999px; width: 95px; }
 }
 
 .gallery-thumbs {
-	width: 121px;
-	float: right;
+	width: 141px;
+	float: left;
+	margin: 0px 15px;
+}
+
+.gallery-thumbs .wrapper {
+	overflow: hidden;
+	height: 561px;
+}
+
+.gallery-thumbs .wrapper ul {
+	height: 541px;
+	margin-top: 20px;
 }
