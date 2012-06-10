@@ -21,7 +21,7 @@
 
 ?>
 <div class="galleryformatter galleryview galleryformatter-<?php print $settings['style'] ?>">
-  <div class="gallery-slides" style="width: <?php print $dimensions['slides']['width']; ?>px; height: <?php print $dimensions['slides']['height']; ?>px;">
+  <div class="gallery-slides" style="width: <?php print $dimensions['slides']['width'] + 20; ?>px; height: <?php print $dimensions['slides']['height'] +20; ?>px;">
     <div class="gallery-frame">
       <ul>
       <?php foreach ($slides as $id => $data): ?>
@@ -40,11 +40,11 @@
     </div>
   </div>
   <?php if(!empty($thumbs)): ?>
-  <div class="gallery-thumbs" style="width: <?php print $dimensions['slides']['width']; ?>px;">
+  <div class="gallery-thumbs">
     <div class="wrapper">
       <ul>
         <?php foreach ($thumbs as $id => $data): ?>
-          <li class="slide-<?php print $id; ?>" style="width: <?php print $dimensions['thumbs']['width']; ?>px;"><a href="#<?php print $data['hash_id']; ?>"><?php print $data['image']; ?></a></li>
+          <li class="slide-<?php print $id; ?>" style="width: <?php print $dimensions['thumbs']['width'] + 20; ?>px;"><a href="#<?php print $data['hash_id']; ?>"><?php print $data['image']; ?></a></li>
         <?php endforeach; ?>
       </ul>
     </div>
